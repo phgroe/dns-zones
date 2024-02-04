@@ -1,0 +1,51 @@
+pealpjpain.net.			43200	IN SOA	altair.pealpjpain.net. hostmaster.pealpjpain.net. 2024010900 14400 3600 2592000 14400
+
+pealpjpain.net.			1200	IN A	81.169.255.8
+www.pealpjpain.net.		1200	IN A	81.169.255.8
+
+pealpjpain.net.			600	IN MX	10 altair.pealpjpain.net.
+mail.pealpjpain.net.		600	IN A	81.169.255.8
+
+altair.pealpjpain.net.		600	IN A	81.169.255.8
+altair.pealpjpain.net.		600	IN AAAA	2a01:238:4339:1a00:7222:3b5f:8327:b0be
+
+cygnus.pealpjpain.net.		600	IN A	95.216.70.78
+cygnus.pealpjpain.net.		600	IN AAAA	2a01:4f9:2b:6af::2
+
+altair.dns.pealpjpain.net.	1200	IN A	81.169.255.8
+altair.dns.pealpjpain.net.	1200	IN AAAA	2a01:238:4339:1a00:7222:3b5f:8327:b0be
+cygnus.dns.pealpjpain.net.	1200	IN A	95.216.70.78
+cygnus.dns.pealpjpain.net.	1200	IN AAAA	2a01:4f9:2b:6af::2
+
+cygnus.sync.pealpjpain.net.	1200	IN A	135.181.139.7
+
+decrux.dns.pealpjpain.net.	172800	IN A	62.116.159.4
+dheneb.dns.pealpjpain.net.	172800	IN A	84.23.70.64
+gienah.dns.pealpjpain.net.	172800	IN A	217.160.113.37
+gienah.dns.pealpjpain.net.	172800	IN AAAA	2001:8d8:580:401:217:160:113:37
+lucida.dns.pealpjpain.net.	172800	IN A	89.146.248.4
+lucida.dns.pealpjpain.net.	172800	IN AAAA	2a01:130:2000:118:89:146:248:4
+mirach.dns.pealpjpain.net.	172800	IN A	74.208.254.4
+mirach.dns.pealpjpain.net.	172800	IN AAAA	2607:f1c0:1800:8091:74:208:254:4
+
+pealpjpain.net.		86400	IN	NS	cygnus.dns.pealpjpain.net.
+pealpjpain.net.		86400	IN	NS	gienah.dns.pealpjpain.net.
+pealpjpain.net.		86400	IN	NS	lucida.dns.pealpjpain.net.
+pealpjpain.net.		86400	IN	NS	mirach.dns.pealpjpain.net.
+
+pealpjpain.net.		86400	IN	TXT	"Pealp'JPain"
+pealpjpain.net.		86400	IN	TXT	"v=spf1 mx -all"
+
+nyx.pealpjpain.net.	1200	IN	A	81.169.255.8
+
+shadow.pealpjpain.net.	43200	IN	CNAME	irrenansta.lt.
+
+_github-challenge-pealpjpain.pealpjpain.net. 300 IN CAA	10 iodef "mailto:hostmaster@pealpjpain.net"
+_github-challenge-pealpjpain.pealpjpain.net. 300 IN CAA	10 issue "geotrust.com"
+_github-challenge-pealpjpain.pealpjpain.net. 300 IN TXT	"024d460f85"
+_github-challenge-pealpjpain.pealpjpain.net. 300 IN TXT	"2018030810545505jskuwnj88fouzz2gcqyyluwaad2001lk9emx4lenarb5dskd"
+
+_imaps._tcp.pealpjpain.net. 3600 IN	SRV	0 0 993 altair.pealpjpain.net.
+_smtps._tcp.pealpjpain.net. 3600 IN	SRV	0 0 465 altair.pealpjpain.net.
+
+
